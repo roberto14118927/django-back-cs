@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    #Componentes agregados 
+    'primerComponente',
+
     # Librerias agregadas al proyecto
     'rest_framework',
 ]
@@ -86,7 +89,7 @@ WSGI_APPLICATION = 'primeraApp.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2', # Es una constante que nunca cambia , es por defecto nombre ruta librería 
         'NAME': 'dbDjango',
         'USER': 'postgres',
         'PASSWORD': 'root',
